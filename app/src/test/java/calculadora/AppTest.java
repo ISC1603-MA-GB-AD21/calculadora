@@ -16,6 +16,7 @@ public class AppTest {
 
     @Test public void testSuma() {
         assertTrue(c.suma(2,3)==5);
+        assertTrue(c.suma(2.4, 3.2)==5.6);
     }
 
     @Test public void testResta() {
