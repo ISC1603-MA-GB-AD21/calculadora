@@ -11,5 +11,7 @@ public class App {
 
         System.out.println("CALCULADORA BÁSICA");
         System.out.println("------------------");
+
+        System.out.println("2+3="+c.suma(2,3));
     }
 }
