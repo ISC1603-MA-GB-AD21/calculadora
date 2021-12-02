@@ -27,3 +27,14 @@ jobs:
       
     - name: Build with Gradle
       run: ./gradlew build
+      
+    - name: Generating JAR archive
+      run: ./gradlew jar
+      
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Package
+        path: app/build/libs
+        
+    - name: Run with Gradle
+      run: ./gradlew run
