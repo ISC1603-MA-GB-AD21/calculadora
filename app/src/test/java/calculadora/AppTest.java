@@ -18,4 +18,9 @@ public class AppTest {
         assertTrue(c.suma(2,3)==5);
         assertTrue(c.suma(2.4, 3.2)==5.6);
     }
+
+    @Test public void testMultiplicacion() {
+        assertTrue(c.multiplica(4.0,3.0)==12.0);
+        assertTrue(c.multiplica(3.1, 2.3)==7.13);
+    }
 }
