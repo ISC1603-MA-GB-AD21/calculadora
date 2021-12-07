@@ -13,5 +13,6 @@ public class App {
         System.out.println("------------------");
 
         System.out.println("2+3="+c.suma(2,3));
+        System.out.println("2*3="+c.multiplica(2, 3));
     }
 }
